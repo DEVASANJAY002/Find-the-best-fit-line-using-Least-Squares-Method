@@ -38,7 +38,8 @@ Y_pred=m*X+b
 print(Y_pred)
 plt.scatter(X,Y,color='blue')
 plt.plot(X,Y_pred,color='yellow') 
-plt.show()
+plt.show() 
+
 
 /*
 Program to implement univariate Linear Regression to fit a straight line using least squares.
