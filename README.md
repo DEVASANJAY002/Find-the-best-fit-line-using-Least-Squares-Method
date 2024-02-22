@@ -17,7 +17,6 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
-
 import numpy as np
 import matplotlib.pyplot as plt
 X=np.array(eval(input()))
@@ -41,14 +40,12 @@ plt.scatter(X,Y,color='blue')
 plt.plot(X,Y_pred,color='yellow') 
 plt.show()
 
-
-```
 /*
 Program to implement univariate Linear Regression to fit a straight line using least squares.
 Developed by: DEVASANJAY N
 RegisterNumber:  212223040032
 */
-```
+
 
 ## Output:
 ![Screenshot 2024-02-22 084539](https://github.com/DEVASANJAY002/Find-the-best-fit-line-using-Least-Squares-Method/assets/152069249/dc9db50e-b0c2-4808-bbfa-a7de6a72a1f9)
